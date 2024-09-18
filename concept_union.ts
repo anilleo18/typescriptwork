@@ -6,10 +6,10 @@ let arg_3: (string | boolean | number) = true
 
 let arg_anytype: any = "anything i can write number of string or boolean "
 
-//any : 
+//any 
 let language: any[] = ["fine", false, 8, null]
 
-function get_User_Profile_Data(customer_ID: (string | number)) {
+function get_User_Profile_Data(customer_IDalpha (string | number)) {
 
     if (typeof customer_ID === 'number') {
 
@@ -49,8 +49,9 @@ console.log(return_type_expecting_num);
 //function with void 
 
 function user_lakes(lake: string): void {
-
     console.log("never return any thing ");
 }
 
 //Never is one type :
+
+function alpha() { }//sample code for git repo 
