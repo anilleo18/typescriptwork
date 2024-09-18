@@ -9,12 +9,12 @@ let arg_anytype: any = "anything i can write number of string or boolean "
 //any 
 let language: any[] = ["fine", false, 8, null]
 
-function get_User_Profile_Data(customer_IDalpha (string | number)) {
+function get_User_Profile_Data(customer_IDalpha: (string | number)): any {
 
-    if (typeof customer_ID === 'number') {
+    if (typeof customer_IDalpha === 'number') {
 
         return 9000;
-    } else if (typeof customer_ID == 'string') {
+    } else if (typeof customer_IDalpha == 'string') {
 
         return "alphadataservices";
     }
