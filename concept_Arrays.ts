@@ -65,3 +65,23 @@ console.log(user_data_2d[2][1])
 const villans: string[] = ["DanieilDlewis", "Zuganta", "Tilaka"];
 
 
+//Here we are creating icream obj type and we are inserting in whaticecream
+//whaticream return type is icecream[];so we need to inject values in icream obj type
+
+type icecream = {
+    name: string;
+    flav: string;
+    icecubesneed: boolean
+
+
+}
+
+
+
+const whaticream: icecream[] = [];
+
+whaticream.push({ name: "cookie-dove", flav: "vanila", icecubesneed: false }, { name: "cocho", flav: "choco", icecubesneed: true });
+const ice_query = whaticream[1];
+console.log(ice_query);
+console.log(whaticream[1].name);
+
