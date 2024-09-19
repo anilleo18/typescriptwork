@@ -61,3 +61,7 @@ user_data_2d.push([30, 'jitha']);
 console.log(user_data_2d[2][1])
 
 
+
+const villans: string[] = ["DanieilDlewis", "Zuganta", "Tilaka"];
+
+
