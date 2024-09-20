@@ -56,4 +56,9 @@ function user_lakes(lake: string): void {
 
 function alpha() { }//sample code for git repo 
 
+let seats_Air: "aisle" | "window";
+seats_Air = "aisle";
+//seats_Air="middle";
+
+
 
