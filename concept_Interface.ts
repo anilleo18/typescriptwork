@@ -16,12 +16,12 @@ interface bus {
     drivername: string
 }
 
-const vechile: bus = {
-    name: "volvo", type_bus: "sleeper", drivername: "seenu", gettypresize: () => { return "" },
-    getsleeptype: (seat_number: 43) => {
-        return " "
-    }
-}
+// const vechile: bus = {
+//     name: "volvo", type_bus: "sleeper", drivername: "seenu", gettypresize: () => { return "" },
+//     getsleeptype: (seat_number: 43) => {
+//         return " "
+//     }
+// }
 
 interface busstand extends bus {
 
