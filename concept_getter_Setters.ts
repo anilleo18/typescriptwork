@@ -3,13 +3,15 @@ class Email {
     email_id: string;
     city: string = "hyderbad";
     private _counter: number = 10;
+    static alpha: string = "hebrew"
+
     constructor(email_id: string) {
 
         this.email_id = email_id
     }
     get getEpamemail_id(): string {
 
-        return `hey Email id from Epam is ${this.email_id}`
+        return `hey Email id from Epam is ${this.email_id},${Email.alpha}`
     }
     get num_emails_counter(): number {
 
