@@ -60,3 +60,19 @@ enum cars_catgeries {
 }
 console.log(cars_catgeries.doorfixes);
 console.log(cars_catgeries.glassbreak)
+
+
+enum seats {
+
+    Aisle = 100,
+    window,
+    middle
+
+
+}
+
+if (seats.Aisle == 100) { }
+else if (seats.middle == 102) { }
+
+
+const seat_type = seats.Aisle

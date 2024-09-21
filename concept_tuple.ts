@@ -20,3 +20,16 @@ type bus_info = {
 type car = [boolean, number]
 
 const carvalue_sale: car = [false, 888888]
+
+
+function thupas(a: number, b: string): string {
+
+    return "";
+}
+
+let chamanprash = (a: number, b: number): number => {
+
+    return a + b;
+}
+
+
