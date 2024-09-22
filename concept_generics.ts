@@ -27,3 +27,25 @@ function tribe_three<gym>(gym: Gym): Gym {
 
     return { name: "skudo", machines_num: 2 };
 }
+
+
+const lake = {
+    name: "nigerianlake",
+    continent: "Africa"
+}
+console.log(lake.name)
+
+
+function indonesia_trbe<T>(name_tribes: Array<T>): T {
+    console.log(name_tribes.length)
+    return name_tribes[2];
+
+
+}
+
+//same above in arrow function:
+const indoesia_tribals = <T>(tribals_names: Array<T>): T => {
+    console.log(tribals_names.length)
+    return tribals_names[2];
+}
+
